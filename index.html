@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/sass.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <script src="./assets/js/script.js" type="text/javascript"></script>
+</head>
+<body class="bg-dark " dir="rtl">
+<header class="pt-5 pb-2"  id="head">
+    <center class="text-dark pt-4 pb-3 bg-light ">لطفا تعداد تیم ها را وارد کنید:
+        <input class=" border-top-0 border-left-0 border-right-0 " type="text" id="tiv1">
+        <button class="btn-outline-danger text-light mr-1 " onclick="check()">تایید</button >
+
+        <div class="d-flex mr-2 mt-2"> <p class="ml-1 mt-2" id="result"></p>
+            <input class="inp123 border-top-0 border-left-0 border-right-0 " type="text" id="tiv2">
+            <button class="btn-outline-danger text-light mr-1 " id="bset" onclick="setteam()">تایید</button ></div>
+    </center>
+
+</header>
+<main class="bg-dark " dir="rtl">
+    <div class="board-div bg-light container mt-5 " id="board-div">
+        <h5 class="d-flex mr-2">جدول هفتگی تیم ها:</h5>
+        <div class="d-flex flex-wrap" id="main"></div>
+
+    </div>
+</main>
+<footer id="footer-display">
+    <div class="container bg-light mt-5 mb-5" id="jadval">
+        <h5 class="jadval d-flex mr-2 bg-light">جدول لیگ:</h5>
+        <dive class="d-flex booo mt-3" id="jad"></dive>
+    </div>
+</footer>
+</body>
+</html>
